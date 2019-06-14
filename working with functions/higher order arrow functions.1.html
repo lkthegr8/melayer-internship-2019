@@ -1,0 +1,8 @@
+<script>
+    const increment = (function() {
+        return function increment(num, value = 1) {
+            return num + value;
+        };
+    })();
+    console.log(increment(5, 2));
+</script>
