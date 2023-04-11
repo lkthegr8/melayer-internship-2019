@@ -1,0 +1,9 @@
+<script>
+    const numarr = [2, 3.4, -2, 3];
+
+    const squarelist = (arr) => {
+        const squaredint = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x);
+        return squaredint;
+    };
+    console.log(squarelist(numarr));
+</script>
